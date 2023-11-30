@@ -2,4 +2,4 @@ Procedural animated moiré pattern with three different models. Contain control 
 
 ![alt text](https://klearrender.files.wordpress.com/2022/05/model_a.jpg)
 
-![alt text](https://klearrender.files.wordpress.com/2022/02/interface_v03.jpg)
+![alt text](https://klearrender.files.wordpress.com/2022/05/express_moire_interface.jpg)
