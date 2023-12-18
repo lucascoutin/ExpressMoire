@@ -1,6 +1,7 @@
 #! C:/Program Files/Nuke13.1v1/nuke-13.1.1.dll -nx
 version 13.1 v1
 Gizmo {
+ name ExpressMoire
  tile_color 0xff
  addUserKnob {20 effect l "Moiré Effect"}
  addUserKnob {4 result l Result M {Composite "Moiré Only" "" ""}}
