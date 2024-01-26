@@ -1,4 +1,4 @@
-Gizmo {
+Group {
  name ExpressMoire
  tile_color 0xff
  addUserKnob {20 effect l "Moiré Effect"}
