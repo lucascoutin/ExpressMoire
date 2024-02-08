@@ -3,7 +3,6 @@ Group {
  tile_color 0xff
  addUserKnob {20 User l ExpressMoiré}
  addUserKnob {4 mode l Mode t "Generate only moiré or geometric merged." M {"Moiré Only" Merged "" ""}}
- mode Merged
  addUserKnob {3 seed l Seed t "Number to initialize random algorithm."}
  seed 1
  addUserKnob {6 pixel l Pixelation t "3x3 RGB pixel effect." -STARTLINE}
@@ -36,21 +35,21 @@ Group {
   xpos 180
   ypos 370
  }
-set Nb516a800 [stack 0]
+set Neff95800 [stack 0]
  Dot {
   name Dot12
   selected true
   xpos 180
   ypos 1401
  }
-set Nb516b000 [stack 0]
-push $Nb516a800
+set Neff95400 [stack 0]
+push $Neff95800
  Dot {
   name Dot10
   xpos 30
   ypos 370
  }
-set Nb516b400 [stack 0]
+set Neff95000 [stack 0]
  Dot {
   name Dot6
   xpos -276
@@ -98,13 +97,13 @@ set Nb516b400 [stack 0]
   xpos -276
   ypos 647
  }
-set N9647ac00 [stack 0]
+set Neff63400 [stack 0]
  Dot {
   name Dot2
   xpos -493
   ypos 647
  }
-set N9647b800 [stack 0]
+set Neff63000 [stack 0]
  Dot {
   name Dot4
   xpos -603
@@ -125,7 +124,7 @@ set N9647b800 [stack 0]
   xpos -603
   ypos 861
  }
-push $N9647b800
+push $Neff63000
  Expression {
   expr0 "x % 4 == 0"
   expr1 "x % 4 == 1"
@@ -147,7 +146,7 @@ push $N9647b800
   xpos -493
   ypos 993
  }
-push $N9647ac00
+push $Neff63400
  Merge2 {
   inputs 2
   operation multiply
@@ -162,8 +161,8 @@ push $N9647ac00
   xpos -276
   ypos 1149
  }
-set Na863800 [stack 0]
-push $Nb516b400
+set Neff3a000 [stack 0]
+push $Neff95000
  Merge2 {
   inputs 2
   operation geometric
@@ -172,7 +171,7 @@ push $Nb516b400
   xpos -4
   ypos 1146
  }
-push $Na863800
+push $Neff3a000
  Dot {
   name Dot9
   xpos -276
@@ -200,7 +199,7 @@ push $Na863800
   xpos 30
   ypos 1503
  }
-push $Nb516b000
+push $Neff95400
  Dissolve {
   inputs 2
   which {{mix_master}}
@@ -214,4 +213,3 @@ push $Nb516b000
   ypos 1637
  }
 end_group
-
