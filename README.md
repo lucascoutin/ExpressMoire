@@ -1,5 +1,5 @@
-Procedural animated moiré pattern with three different models. Contain control for flickering, slight chromatic aberration, background degradation, simple screen pixelation and time offset.
+Procedural animated moiré pattern.
 
-![alt text](https://klearrender.files.wordpress.com/2022/05/model_a.jpg)
+![alt text](https://klearrender.files.wordpress.com/2024/02/model_a_v02.jpg)
 
-![alt text](https://klearrender.files.wordpress.com/2022/05/express_moire_interface.jpg)
+![alt text](https://klearrender.files.wordpress.com/2024/02/express_moire_interface_v01.jpg)
