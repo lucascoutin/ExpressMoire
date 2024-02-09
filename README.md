@@ -1,4 +1,4 @@
-Procedural animated moiré pattern.
+Procedurally animated moiré pattern.
 
 ![alt text](https://klearrender.files.wordpress.com/2024/02/model_a_v02.jpg)
 
