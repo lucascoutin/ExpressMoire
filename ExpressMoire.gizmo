@@ -2,7 +2,7 @@ Group {
  name ExpressMoire
  tile_color 0xff
  addUserKnob {20 User l ExpressMoiré}
- addUserKnob {4 mode l Mode t "Generate only moiré or geometric merged." M {"Moiré Only" Merged "" ""}}
+ addUserKnob {4 alphamode l Mode t "Generate only moiré or geometric merged." M {"Moiré Only" Merged "" ""}}
  addUserKnob {3 seed l Seed t "Number to initialize random algorithm."}
  seed 1
  addUserKnob {6 pixel l Pixelation t "3x3 RGB pixel effect." -STARTLINE}
@@ -179,7 +179,7 @@ push $Neff3a000
  }
  Switch {
   inputs 2
-  which {{mode}}
+  which {{alphamode}}
   name Switch1
   xpos -4
   ypos 1297
